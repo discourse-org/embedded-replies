@@ -3,7 +3,7 @@ import DiscourseURL from "discourse/lib/url";
 
 export default {
   name: "reply-to-tab",
-  
+
   initialize(container) {
     withPluginApi("0.8.7", (api) => {
       const site = api.container.lookup("site:main");
